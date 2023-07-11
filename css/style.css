@@ -132,9 +132,10 @@ section{
 .gallery{
     display: flex;
     justify-content: space-between;
+    margin-top: 40px;
 }
 .gallery img{
-    width: 280px;
+    width: 24%;
     height: auto;
 }
 #deals{
