@@ -49,7 +49,7 @@ section{
 .subtitle{
     color: rgba(39, 39, 39, 0.60);
     font-family: 'Lato', sans-serif;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 280;
 }
 .banner .subtitle{
@@ -141,6 +141,20 @@ section{
 .gallery img{
     width: 24%;
     height: auto;
+}
+#client{
+    text-align: center;
+}
+.client{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 40px;
+}
+.client img{
+    height: 80px;
+    width: auto;
 }
 #deals{
     background-image: url("../Asset/Rectangle9.png");
